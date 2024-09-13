@@ -7,6 +7,7 @@
 ## Tech Thoughts
 
 ## Productionalization
+- database migrations
 
 ## Performance & Resilience
 
@@ -15,6 +16,7 @@
 ## Observability & Monitoring
 
 ## Improvements
+- testing
 
 ## LinkedIn
 https://www.linkedin.com/in/jfiorato
