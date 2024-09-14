@@ -4,7 +4,7 @@ import { AppService } from './app.service';
 import { DatabaseModule } from './database/database.module';
 import { ConfigModule } from '@nestjs/config';
 import { QuestionDomainsModule } from './question-domains/question-domains.module';
-import { AssessmentsModule } from './assessments/assessments.module';
+import { ScreenersModule } from './screeners/screeners.module';
 
 @Module({
   imports: [
@@ -13,7 +13,7 @@ import { AssessmentsModule } from './assessments/assessments.module';
     }),
     DatabaseModule,
     QuestionDomainsModule,
-    AssessmentsModule,
+    ScreenersModule,
   ],
   controllers: [AppController],
   providers: [AppService],
